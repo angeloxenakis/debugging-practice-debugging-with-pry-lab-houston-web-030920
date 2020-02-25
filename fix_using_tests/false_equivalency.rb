@@ -21,4 +21,4 @@ def runner
   prompt_user
   selection(1)
 end
-binding.pry
+num
