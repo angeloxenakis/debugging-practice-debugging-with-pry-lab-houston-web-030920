@@ -1,6 +1,5 @@
 require 'pry'
-require 'gets'
-require 'chomp'
+
 
 def get_user_input
   gets.chomp
