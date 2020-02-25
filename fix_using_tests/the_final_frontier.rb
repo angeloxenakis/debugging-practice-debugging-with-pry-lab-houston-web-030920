@@ -7,7 +7,7 @@ def state_log(star_date)
   "Captain's Log, star date #{star_date}."
 end
 
-def crew
+def crew_names
   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
