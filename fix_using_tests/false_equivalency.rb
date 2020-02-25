@@ -1,4 +1,6 @@
 require 'pry'
+require 'gets'
+require 'chomp'
 
 def get_user_input
   gets.chomp
@@ -19,6 +21,5 @@ end
 
 def runner
   prompt_user
-  selection(1)
+  selection(get_user_input)
 end
-
