@@ -1,3 +1,4 @@
+require 'pry'
 
 def turtles
     [
@@ -12,6 +13,7 @@ def turtle_traits(turtles)
   turtles.map do |turtle|
     turtle[:traits].each do |trait|
       trait
+      binding.pry
     end
   end
 end
