@@ -19,6 +19,6 @@ end
 
 def runner
   prompt_user
-  selection(num)
+  selection(1)
 end
 binding.pry
